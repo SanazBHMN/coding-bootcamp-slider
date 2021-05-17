@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+:root {
+  --color-primary-text: hsl(240, 38%, 20%);
+  --color-primary: hsl(240, 18%, 77%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 2em;
+  background-image: url("../images/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: var(--color-primary-text);
+}
+
+.slider {
+  max-width: 60%;
+  margin: 60px auto;
+  border: 2px solid red;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.slide-controller {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 40%;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: -33px;
+}
+
+.slider .left-slide,
+.slider .right-slide {
+  display: inline-block;
+  padding: 0 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.slider .left-slide:hover,
+.slider .right-slide:hover {
+  /* box-shadow: 0px 0px 0px red; */
+  /* background-color: gray; */
+}
+
+.slider .slider-items .item img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.slider .slider-items .item {
+  display: none;
+}
+
+.slider .slider-items .item.active {
+  display: block;
+}
+
+/* caption */
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    padding: .5em;
+}
+
+.caption p {
+    text-align: center;
+}
