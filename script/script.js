@@ -1,38 +1,17 @@
 // var slides = document.querySelector(".slider-items").children;
 var slides = [
   {
-    image: "../images/image-tanya.jpg",
+    image: "images/image-tanya.jpg",
     caption:
       "“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m nowin the job of my dreams and so excited about the future. ”",
     username: "Tanya Sinclair",
     skill: "UX Engineer",
   },
   {
-    image: "../images/image-john.jpg",
+    image: "images/image-john.jpg",
     caption:
       " “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”",
     username: "John Smith",
-    skill: "Junior Frontend Developer",
-  },
-  {
-    image: "../images/image-john.jpg",
-    caption:
-      " “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”",
-    username: "Asghar",
-    skill: "Junior Frontend Developer",
-  },
-  {
-    image: "../images/image-john.jpg",
-    caption:
-      " “ If you want to lay the best foundation possible I’d recommend taking this course. . I now feel so confident about starting up as a professional developer. ”",
-    username: "Akram",
-    skill: "Junior Frontend Developer",
-  },
-  {
-    image: "../images/image-john.jpg",
-    caption:
-      " “ The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”",
-    username: "Soghra",
     skill: "Junior Frontend Developer",
   },
 ];
